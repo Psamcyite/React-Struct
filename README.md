@@ -103,8 +103,8 @@ You should always work directly from your forked copy.
 
 ```bash
 # note that an `ssh` link is used here, but an `https` link will work the same
-git clone git@github.com:username/30-Days-Of-React.git
-cd 30-Days-Of-React
+git clone git@github.com:username/React-Struct.git
+cd React-Struct
 ```
 
 ### Create a New Branch
@@ -141,7 +141,7 @@ This repo will be updated daily throughout the month. When a new day's content b
 ```bash
 # 1. switch to master branch
 git checkout master
-# 2. check if your local copy has a link to original `...Asabeneh/30-Days-Of-React.git`
+# 2. check if your local copy has a link to original `...Psamcyite/React-Struct.git`
 git remote -v
 # 3. if not, add a link to original, you can choose any name for the link or use `upstream`
 git remote add upstream git@github.com:Asabeneh/30-Days-Of-React.git
@@ -179,7 +179,7 @@ After downloading double click and install
 We can check if node is installed on our local machine by opening our device terminal or command prompt.
 
 ```sh
-psamcyite $ node -v
+react-struct $ node -v
 v12.14.0
 ```
 
